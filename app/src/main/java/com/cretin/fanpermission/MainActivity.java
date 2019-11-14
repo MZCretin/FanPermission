@@ -3,6 +3,7 @@ package com.cretin.fanpermission;
 import android.Manifest;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Switch;
@@ -81,4 +82,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }

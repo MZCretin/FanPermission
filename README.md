@@ -22,6 +22,10 @@
 + **侵入性低，使用回调的方式反馈授权结果**
 + **无其他第三方依赖库污染，纯原生支持**
 
+### 博客地址
+
+博客讲解地址：[【需求解决系列之五】一行代码实现Android 6.0以上动态权限的申请](https://juejin.im/post/5dccd011e51d45108876f3b6)
+
 ### demo下载
 
 [Demo下载](https://raw.githubusercontent.com/MZCretin/FanPermission/master/pic/demo.apk)

@@ -20,9 +20,10 @@ public class FanPermissionUtils {
     private Activity mContext;
     //回调监听
     private FanPermissionListener listener;
+    //存储所有的权限列表
+    private List<String> permissions = new ArrayList<>();
 
     private FanPermissionConfig checkConfig;
-
 
     private FanPermissionUtils(Activity mContext) {
         this.mContext = mContext;
@@ -31,8 +32,6 @@ public class FanPermissionUtils {
     public static FanPermissionUtils with(Activity context) {
         return new FanPermissionUtils(context);
     }
-
-    private List<String> permissions = new ArrayList<>();
 
     public FanPermissionConfig createConfig() {
         checkConfig = new FanPermissionConfig(this);
@@ -71,7 +70,6 @@ public class FanPermissionUtils {
      * 获取App的名称
      *
      * @param context 上下文
-     *
      * @return 名称
      */
     public static String getAppName(Context context) {
